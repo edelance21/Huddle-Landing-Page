@@ -103,7 +103,7 @@ button:hover {
     background-color: hsl(300, 69%, 71%);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     body {
     background-image: url(images/bg-mobile.svg);
     background-color: hsl(257, 40%, 49%);
@@ -121,12 +121,12 @@ button:hover {
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 28px;
         padding-top: 3rem;
     }
 
     .img-article {
-        width: 20rem;
+        width: 24rem;
     }
 
     button {
@@ -134,8 +134,8 @@ button:hover {
     }
 
     p {
-        font-size: 16px;
-        max-width: 30ch;
+        font-size: 18px;
+        max-width: 32ch;
     }
 
     .footer-figure {
@@ -157,6 +157,6 @@ button:hover {
     }
 
     .div-text {
-        padding-right: 2rem;
+        
     }
 }
