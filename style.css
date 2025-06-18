@@ -135,7 +135,7 @@ button:hover {
 
     p {
         font-size: 16px;
-        max-width: 33ch;
+        max-width: 30ch;
     }
 
     .footer-figure {
@@ -152,11 +152,10 @@ button:hover {
     }
     
     .icon {
-        width: 3rem;
         height: auto;
     }
 
     .div-text {
-        padding-right: 1.5rem;
+        padding-right: 2rem;
     }
 }
