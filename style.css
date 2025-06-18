@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+    background-image: url(images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.header-logo {
+    width: 12rem;
+}
+
+header {
+    height: 9rem;
+    width: 100%;
+    align-content: center;
+    padding-left: 2rem;
+}
+
+p {
+    color: white;
+    max-width: 50ch;
+}
+
+h2 {
+    color: white;
+    padding-bottom: 1rem;
+    max-width: 20ch;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.div-article {
+    display: flex;
+}
+
+.div-text {
+    align-self: center;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+
+button {
+    width: 10.5rem;
+    height: 2.7rem;
+    border-radius: 2rem;
+    color: hsl(257, 40%, 49%);
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-button {
+    padding-top: 1.5rem;
+}
+
+.container {
+    padding-left: 2rem;
+    max-height: 1440px;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    align-content: center;
+}
+
+.footer-figure {
+    display: flex;
+    justify-content: right;
+    gap: 0.8rem;
+    padding-right: 2rem;
+}
+
+.icon {
+    width: 2rem;
+    height: fit-content;
+    border: 2px solid white;
+    border-radius: 2rem;
+}
+
+.icon:nth-child(2) {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+    background-image: url(images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+
+    .container {
+        width: 375px;
+        text-align: center;
+    }
+
+    .div-article {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 28px;
+        padding-top: 3rem;
+    }
+
+    .img-article {
+        width: 22rem;
+    }
+
+    button {
+        width: 15rem;
+    }
+
+    p {
+        font-size: 16px;
+        max-width: 33ch;
+    }
+
+    .footer-figure {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    header {
+        padding-bottom: 2rem;
+    }
+
+    footer {
+        height: 7rem;
+    }
+}
