@@ -121,12 +121,12 @@ button:hover {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 26px;
         padding-top: 3rem;
     }
 
     .img-article {
-        width: 22rem;
+        width: 20rem;
     }
 
     button {
@@ -150,4 +150,10 @@ button:hover {
     footer {
         height: 7rem;
     }
+    
+    .icon {
+        width: 3rem;
+    }
+
+    .div-text {}
 }
