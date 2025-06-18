@@ -121,12 +121,12 @@ button:hover {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 26px;
         padding-top: 3rem;
     }
 
     .img-article {
-        width: 24rem;
+        width: 22rem;
     }
 
     button {
@@ -134,7 +134,7 @@ button:hover {
     }
 
     p {
-        font-size: 18px;
+        font-size: 16px;
         max-width: 32ch;
     }
 
@@ -157,6 +157,6 @@ button:hover {
     }
 
     .div-text {
-        
+        padding-right: 2rem;
     }
 }
