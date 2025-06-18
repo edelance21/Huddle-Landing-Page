@@ -90,7 +90,7 @@ footer {
 
 .icon {
     width: 2rem;
-    height: fit-content;
+    height: 2.1rem;
     border: 2px solid white;
     border-radius: 2rem;
 }
@@ -152,7 +152,8 @@ button:hover {
     }
     
     .icon {
-        height: auto;
+        height: 2rem;
+        border-radius: 2rem;
     }
 
     .div-text {
